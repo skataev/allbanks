@@ -2,9 +2,9 @@ html, body {
     height: 100%;
     font-family: arial, verdana;
     color: #362222;
+    background: url("../img/back-33ced25fd86a5f0e82e6857fd7541596.jpg") repeat scroll left top #018caf;
     font-size: 13px;
     line-height: 20px;
-    background: url("../img/bg_body_2.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 @font-face {
     font-family: 'BebasNeueRegular';
@@ -21,7 +21,7 @@ a {
     text-decoration: none;
 }
 .navbar {
-
+    background: #ffffff;
     display: table;
     border-bottom: solid 1px #e4e4e4;
     height: 50px;
@@ -70,10 +70,10 @@ a {
     margin-left: 0;
     font-size: 35px;
     font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
-    color: #2ea2cd;
+    color: #000000 !important;
 }
 .navbar .nav > li.logo a span {
-    color: #186f8f;
+    color: #00b0dd;
     padding-right: 5px;
 }
 .navbar .nav > li {
@@ -101,21 +101,26 @@ a {
 .page {
     width: 960px;
     margin: auto;
-    border-left: solid 1px #e4e4e4;
-    border-right: solid 1px #e4e4e4;
+    background: #ffffff;
     min-height: 100%;
+    -webkit-border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 
-    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.09) inset;
+    background: #ffffff;
 }
 h1 {
-    font-family: 'Lato',sans-serif;
+    font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
     margin-top: 20px;
 }
 .body {
     padding: 10px;
+    background: #ffffff;
 }
 table, table td, table {
     border-collapse: collapse;
@@ -126,6 +131,11 @@ table, table td, table {
     width: 25%;
 }
 .month-product-list table span {
+    color: #999;
+    font-size: 10px;
+}
+.month-product-list table th {
+    font-size: 10px;
     color: #999;
 }
 .month-product-list table td, .month-product-list table th {
@@ -142,7 +152,12 @@ table, table td, table {
     }
     .month-product-list .last {
         text-align: right;
+        padding-top: 20px;
     }
+        .month-product-list .last span {
+            display: block;
+            margin-top: 20px;
+        }
 i.number {
     font-family: georgia;
     font-style: italic;
@@ -195,6 +210,24 @@ i.number {
     -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
     box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785, 0px 5px 3px #999;
 }
-
-
-
+footer ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Lato',sans-serif;
+}
+footer ul li a:hover {
+    text-decoration: none;
+}
+footer ul li {
+    display: inline;
+    padding: 0 10px;
+}
+footer {
+    padding: 15px;
+    text-align: center;
+}
+footer p.copy {
+    color: #ffffff;
+    margin-top: 15px;
+}

@@ -3,12 +3,12 @@
 /**
  * Class IndexController
  */
-class IndexController extends ControllerBase
+class BanksController extends ControllerBase
 {
     public function initialize()
     {
         $this->view->setTemplateAfter('main');
-        Phalcon\Tag::setTitle('All Swiss banks, credits, credit cards, deposits');
+        Phalcon\Tag::setTitle('Contact us');
         parent::initialize();
     }
 
@@ -17,6 +17,14 @@ class IndexController extends ControllerBase
      */
     public function indexAction()
     {
+        print 1;
+    }
 
+    /**
+     *
+     */
+    public function listAction()
+    {
+        print 1;
     }
 }

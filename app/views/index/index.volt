@@ -21,76 +21,76 @@
         </thead>
         <tbody>
         <tr>
-            <th>
+            <td>
                 <a href="#">Наличными</a><br>
                 <span>Ренессанс Кредит</span>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>от</span>
                 <i class="number">15,9%</i>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>до</span> <i class="number">500 000$</i>,<br>
                 <span>до</span> <i class="number">36 months</i>
-            </th>
-            <th class="last">
+            </td>
+            <td class="last">
                 <a href="#" class="button">ОФОРМИТЬ КРЕДИТ</a>
                 <span>3 дня</span>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th>
+            <td>
                 <a href="#">Наличными</a><br>
                 <span>Ренессанс Кредит</span>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>от</span>
                 <i class="number">15,9%</i>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>до</span> <i class="number">500 000$</i>,<br>
                 <span>до</span> <i class="number">36 months</i>
-            </th>
-            <th class="last">
+            </td>
+            <td class="last">
                 <a href="#" class="button">ОФОРМИТЬ КРЕДИТ</a>
                 <span>3 дня</span>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th>
+            <td>
                 <a href="#">Наличными</a><br>
                 <span>Ренессанс Кредит</span>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>от</span><br>
                 <i class="number">15,9%</i>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>до</span> <i class="number">500 000$</i>,<br>
                 <span>до</span> <i class="number">36 months</i>
-            </th>
-            <th class="last">
+            </td>
+            <td class="last">
                 <a href="#" class="button">ОФОРМИТЬ КРЕДИТ</a>
                 <span>3 дня</span>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th>
+            <td>
                 <a href="#">Наличными</a><br>
                 <span>Ренессанс Кредит</span>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>от</span><br>
                 <i class="number">15,9%</i>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>до</span> <i class="number">500 000$</i>,<br>
                 <span>до</span> <i class="number">36 months</i>
-            </th>
-            <th class="last">
+            </td>
+            <td class="last">
                 <a href="#" class="button">ОФОРМИТЬ КРЕДИТ</a>
                 <span>3 дня</span>
-            </th>
+            </td>
         </tr>
         </tbody>
     </table>
@@ -119,76 +119,76 @@
         </thead>
         <tbody>
         <tr>
-            <th>
+            <td>
                 <a href="#">Наличными</a><br>
                 <span>Ренессанс Кредит</span>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>от</span><br>
                 <i class="number">15,9%</i>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>до</span> <i class="number">500 000$</i>,<br>
                 <span>до</span> <i class="number">36 months</i>
-            </th>
-            <th class="last">
+            </td>
+            <td class="last">
                 <a href="#" class="button">ОФОРМИТЬ КРЕДИТ</a>
                 <span>3 дня</span>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th>
+            <td>
                 <a href="#">Наличными</a><br>
                 <span>Ренессанс Кредит</span>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>от</span><br>
                 <i class="number">15,9%</i>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>до</span> <i class="number">500 000$</i>,<br>
                 <span>до</span> <i class="number">36 months</i>
-            </th>
-            <th class="last">
+            </td>
+            <td class="last">
                 <a href="#" class="button">ОФОРМИТЬ КРЕДИТ</a>
                 <span>3 дня</span>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th>
+            <td>
                 <a href="#">Наличными</a><br>
                 <span>Ренессанс Кредит</span>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>от</span><br>
                 <i class="number">15,9%</i>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>до</span> <i class="number">500 000$</i>,<br>
                 <span>до</span> <i class="number">36 months</i>
-            </th>
-            <th class="last">
+            </td>
+            <td class="last">
                 <a href="#" class="button">ОФОРМИТЬ КРЕДИТ</a>
                 <span>3 дня</span>
-            </th>
+            </td>
         </tr>
         <tr>
-            <th>
+            <td>
                 <a href="#">Наличными</a><br>
                 <span>Ренессанс Кредит</span>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>от</span><br>
                 <i class="number">15,9%</i>
-            </th>
-            <th>
+            </td>
+            <td>
                 <span>до</span> <i class="number">500 000$</i>,<br>
                 <span>до</span> <i class="number">36 months</i>
-            </th>
-            <th class="last">
+            </td>
+            <td class="last">
                 <a href="#" class="button">ОФОРМИТЬ КРЕДИТ</a>
                 <span>3 дня</span>
-            </th>
+            </td>
         </tr>
         </tbody>
     </table>
