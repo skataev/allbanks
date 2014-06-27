@@ -1,14 +1,13 @@
 <?php
 
 /**
- * Class IndexController
+ * Class CreditController
  */
-class BanksController extends ControllerBase
+class CreditController extends ControllerBase
 {
     public function initialize()
     {
         $this->view->setTemplateAfter('main');
-        Phalcon\Tag::setTitle('Contact us');
         parent::initialize();
     }
 
@@ -17,13 +16,29 @@ class BanksController extends ControllerBase
      */
     public function indexAction()
     {
-        print 1;
+        Phalcon\Tag::setTitle('Credits');
     }
 
     /**
      *
      */
     public function listAction()
+    {
+        print 1;
+    }
+
+    /**
+     *
+     */
+    public function searchAction()
+    {
+        print 1;
+    }
+
+    /**
+     *
+     */
+    public function itemAction()
     {
         print 1;
     }

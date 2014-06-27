@@ -24,10 +24,10 @@
                             </a>
                         </li>
                         <li><a href="/contact">contacts</a></li>
-                        <li><a href="/labs">mortgages</a></li>
-                        <li><a href="/labs">deposits</a></li>
-                        <li><a href="/work">credit cards</a></li>
-                        <li><a href="/">credits</a></li>
+                        <li><a href="/hypothec/">mortgages</a></li>
+                        <li><a href="/deposits/">deposits</a></li>
+                        <li><a href="/credit-cards/">credit cards</a></li>
+                        <li><a href="/credits/">credits</a></li>
                         <li><a href="/banks/">Swiss banks</a></li>
                     </ul>
                 </div>
@@ -43,11 +43,11 @@
 <footer>
     <ul>
         <li><a href="/banks/">swiss banks</a></li>
-        <li><a href="/">credits</a></li>
-        <li><a href="/work">credit cards</a></li>
-        <li><a href="/labs">deposits</a></li>
-        <li><a href="/labs">mortgages</a></li>
-        <li><a href="/contact">contacts</a></li>
+        <li><a href="/credits/">credits</a></li>
+        <li><a href="/credit-cards/">credit cards</a></li>
+        <li><a href="/deposits/">deposits</a></li>
+        <li><a href="/hypothec.">mortgages</a></li>
+        <li><a href="/contact/">contacts</a></li>
     </ul>
 
     <p class="copy">&copy; 2014, allbanks.ch</p>

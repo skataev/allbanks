@@ -102,7 +102,6 @@ a {
     width: 960px;
     margin: auto;
     background: #ffffff;
-    min-height: 100%;
     -webkit-border-bottom-right-radius: 2px;
     -webkit-border-bottom-left-radius: 2px;
     -moz-border-radius-bottomright: 2px;
@@ -171,7 +170,7 @@ i.number {
     position:relative;
     padding:10px 20px;
     border-left:solid 1px #2ab7ec;
-    margin-left:35px;
+    margin-left:18px;
     background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
     background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
     background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
@@ -231,3 +230,44 @@ footer p.copy {
     color: #ffffff;
     margin-top: 15px;
 }
+.in-text {
+    background: none repeat scroll 0 0 #fcfeff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 -1px 0 0 #008baf;
+    color: #22464f;
+    font-size: 15px;
+    height: 23px;
+    line-height: 23px;
+    margin: 0;
+    outline: medium none;
+    overflow: hidden;
+    padding: 4px 60px 6px 10px;
+    text-overflow: ellipsis;
+    width: 189px;
+}
+.bg1-block {
+    background: url("../img/c-spec-offers-3492a30e38dab25fa7d21651a8e37041.png") repeat scroll left top #00b0dd;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 15px;
+}
+.search input[type=text] {
+    width: 760px;
+}
+    .search .button {
+        float: right;
+        margin-top: -8px;
+    }
+    .bank-block {
+        float: left;
+        margin-top: 15px;
+        border: solid 1px #00b0dd;
+    }
+.bank-block img {
+    display: block;
+}
+
+    .clear {
+        clear: both;
+    }
