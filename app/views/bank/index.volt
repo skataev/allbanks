@@ -5,6 +5,7 @@
     <a class="button" href="#">Найти</a>
 </form>
 
+{% for i in 0..10 %}
 <div class="bank-block">
     <a href="/banks/citybank/">
         <img src="/img/finam_bank_135x85.gif">
@@ -12,14 +13,16 @@
     <a href="/banks/citybank/">
         CityBank
     </a>
+    <tel>8 900 3320000</tel>
     <a href="#">Отделений 101</a>
 
-    <div>
+    <div class="inner-line">
         <a href="#">Кредиты 23</a>
         <a href="#">Ипотека 2</a>
         <a href="#">Вклады 23</a>
     </div>
 </div>
+{% endfor %}
 
 <div class="clear"></div>
 
