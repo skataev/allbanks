@@ -18,6 +18,8 @@ html, body {
 }
 a {
     color: #00aee1;
+}
+a:hover {
     text-decoration: none;
 }
 .navbar {
@@ -263,16 +265,45 @@ footer p.copy {
         border: 1px solid #e4e4e4;
         border-radius: 3px;
         float: left;
-        margin-right: 15px;
         margin-top: 15px;
         padding: 10px;
-        width: 198px;
+        width: 201px;
     }
+    .bank-block-left {
+        margin-right: 15px;
+    }
+.bank-block .phone {
+    font-weight: bold;
+    color: #362222;
+}
+.bank-block span {
+    padding: 0 10px 0 0;
+    white-space: nowrap;
+}
+.bank-block span.num {
+    font-family: Georgia;
+    padding: 0;
+    font-size: 11px;
+    font-weight: bold;
+}
 .bank-block:hover {
     border: solid 1px #00b0dd;
 }
+.bank-block:hover .inner-line {
+    background: url("../img/c-spec-offers-3492a30e38dab25fa7d21651a8e37041.png") repeat scroll left top #00b0dd;
+    color: #ffffff;
+    border-top: solid 1px #00b0dd;
+}
+.bank-block:hover .inner-line a {
+    color: #ffffff;
+}
+.bank-block span a {
+    font-size: 10px;
+}
 .bank-block .inner-line {
-
+    border-top: solid 1px #e4e4e4;
+    margin: 10px -10px -10px -10px;
+    padding: 10px;
 }
 .bank-block img {
     display: block;
