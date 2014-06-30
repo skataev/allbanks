@@ -17,6 +17,8 @@ class BankController extends ControllerBase
     public function indexAction()
     {
         Phalcon\Tag::setTitle('All Swiss banks, Zurich');
+        $banks = Bank::find();
+        $this->view->setVar('banksList',$banks);
     }
 
     /**

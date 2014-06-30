@@ -5,20 +5,26 @@
     <a class="button" href="#">Найти</a>
 </form>
 
-{% for i in 0..10 %}
-<div class="bank-block {% if loop.index % 4 %} bank-block-left {% endif %}">
-    <a href="/banks/citybank/">
-        <img src="/img/finam_bank_135x85.gif">
-    </a>
-    <a href="/banks/citybank/">
-        CityBank
-    </a> / <span>
+{% for bank in banksList %}
+    <div class="bank-block {% if loop.index % 4 %} bank-block-left {% endif %}">
+        <a href="/banks/{{bank.getCode()}}/">
+            {% if bank.getLogo() %}
+            <img src="/img/finam_bank_135x85.gif">
+            {% else %}
+                <img src="/img/bank.png">
+            {% endif %}
+        </a>
+        <a href="/banks/{{bank.getCode()}}/">
+            {{bank.getTitle()}}
+        </a> / <span>
         <a href="#">Отделений</a> <span class="num">213</span>
     </span>
-    <div class="phone">8 900 3320000</div>
+        <div class="phone">
+            {{bank.getPhone()}}
+        </div>
 
 
-    <div class="inner-line">
+        <div class="inner-line">
         <span>
             <a href="#">Кредиты</a>
             <span class="num">213</span>
@@ -32,8 +38,8 @@
             <a href="#">Ипотека</a>
             <span class="num">213</span>
         </span>
+        </div>
     </div>
-</div>
 {% endfor %}
 
 <div class="clear"></div>
