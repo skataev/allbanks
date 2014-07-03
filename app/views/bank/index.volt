@@ -1,26 +1,27 @@
-<h1 xmlns="http://www.w3.org/1999/html">Swiss banks</h1>
+<h1>Swiss banks</h1>
 
-<form method="get" class="bg1-block search">
+<form method="get" class="bg1-block search" id="search-bank">
     <input type="text" class="in-text" name="search" value="Suchbegriff...">
     <a class="button" href="#">Найти</a>
 </form>
 
 {% for bank in banksList %}
     <div class="bank-block {% if loop.index % 4 %} bank-block-left {% endif %}">
-        <a href="/banks/{{bank.getCode()}}/">
+        <a href="/banks/{{ bank.getCode() }}/">
             {% if bank.getLogo() %}
-            <img src="/img/finam_bank_135x85.gif">
+                <img src="/img/{{ bank.getLogo() }}">
             {% else %}
-                <img src="/img/bank.png">
+                <img src="/img/void-bank.png">
             {% endif %}
         </a>
-        <a href="/banks/{{bank.getCode()}}/">
-            {{bank.getTitle()}}
+        <a href="/banks/{{ bank.getCode() }}/">
+            {{ bank.getTitle() }}
         </a> / <span>
         <a href="#">Отделений</a> <span class="num">213</span>
     </span>
+
         <div class="phone">
-            {{bank.getPhone()}}
+            {{ bank.getPhone() }}
         </div>
 
 
@@ -45,22 +46,11 @@
 <div class="clear"></div>
 
 <div class="pagination">
-    <a href="#">
-        1
+    {% for i in 1..pageCount %}
+    <a href="?page={{ i }}">
+        {{ i }}
     </a>
-    <a href="#">
-        2
-    </a>
-    <a href="#">
-        3
-    </a>
-    ...
-    <a href="#">
-        10
-    </a>
-    <a href="#">
-        11
-    </a>
+    {% endfor %}
 
     <div>
         <a href="#">

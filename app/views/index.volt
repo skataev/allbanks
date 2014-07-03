@@ -54,5 +54,6 @@
 </footer>
 
 {{ javascript_include('js/jquery-1.11.1.min.js') }}
+{{ javascript_include('js/jquery.func.js') }}
 </body>
 </html>

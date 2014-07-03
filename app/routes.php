@@ -27,12 +27,12 @@ $router->add("/banks/([A-z\-0-9]{4})", array(
     'action' => 'item',
 ));
 
-$router->add("/credits", array(
+$router->add("/credits/", array(
     'controller' => 'credit',
     'action' => 'index',
 ));
 
-$router->add("/credits/search", array(
+$router->add("/credits/search/", array(
     'controller' => 'credit',
     'action' => 'search',
 ));
