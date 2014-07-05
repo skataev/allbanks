@@ -113,7 +113,7 @@ a:hover {
 
     background: #ffffff;
 }
-h1 {
+h1, h3 {
     font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
     font-size: 16px;
     margin-bottom: 10px;
@@ -284,7 +284,7 @@ footer p.copy {
     font-family: Georgia;
     padding: 0;
     font-size: 11px;
-    font-weight: bold;
+    font-style: italic;
 }
 .bank-block:hover {
     border: solid 1px #00b0dd;
@@ -313,3 +313,19 @@ footer p.copy {
     .clear {
         clear: both;
     }
+    .pagination {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .pagination a {
+        margin: 5px;
+        text-decoration: none;
+    }
+.pagination a:hover {
+    text-decoration: underline;
+}
+.note-line {
+    font-style: italic;
+    margin: 10px 10px 0 10px;
+    font-family: Georgia;
+}

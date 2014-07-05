@@ -17,13 +17,8 @@ $router->add("/banks/map/", array(
     'action' => 'map',
 ));
 
-$router->add("/banks/([A-z\-0-9]{4})", array(
-    'controller' => 'show',
-    'action' => 'item',
-));
-
-$router->add("/banks/([A-z\-0-9]{4})", array(
-    'controller' => 'show',
+$router->add("/banks/([A-z\-0-9]{0,14})/", array(
+    'controller' => 'bank',
     'action' => 'item',
 ));
 

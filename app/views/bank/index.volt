@@ -1,9 +1,12 @@
 <h1>Swiss banks</h1>
 
-<form method="get" class="bg1-block search" id="search-bank">
-    <input type="text" class="in-text" name="search" value="Suchbegriff...">
-    <a class="button" href="#">Найти</a>
+<form method="get" class="bg1-block search" action="/banks/" id="search-bank">
+    <input type="text" class="in-text" name="search" value="{{ search }}">
+    <a class="button" onclick="document.getElementById('search-bank').submit(); return false;" href="#">Найти</a>
 </form>
+<p class="note-line">
+    Список банков Швейцарии с возможностью поиска, адресами отделений и банкоматов, подробными сведениями об услугах и продуктах банков.
+</p>
 
 {% for bank in banksList %}
     <div class="bank-block {% if loop.index % 4 %} bank-block-left {% endif %}">
@@ -46,18 +49,7 @@
 <div class="clear"></div>
 
 <div class="pagination">
-    {% for i in 1..pageCount %}
-    <a href="?page={{ i }}">
-        {{ i }}
-    </a>
-    {% endfor %}
-
-    <div>
-        <a href="#">
-            last
-        </a>
-        <a href="#">
-            first
-        </a>
-    </div>
+    {{ paginator }}
 </div>
+
+<h3>Top offers</h3>

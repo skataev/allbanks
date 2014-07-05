@@ -1,8 +1,13 @@
 <?php
-/**
- *
- */
 $config = new Phalcon\Config\Adapter\Ini(__DIR__ . '/../app/config/config.ini');
+
+$loader = new \Phalcon\Loader();
+
+$loader->registerDirs(
+    [
+        __DIR__.'/lib/'
+    ]
+)->register();
 
 $di->set(
     'view',
