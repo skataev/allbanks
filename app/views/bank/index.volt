@@ -57,7 +57,7 @@
     {{ paginator }}
 </div>
 
-<h3>Top offers</h3>
+<h3>Special offers</h3>
 <div class="top-offer-1">
     <img src="/img/void-bank.png">
     до 500 000 руб.<br>
