@@ -52,4 +52,4 @@
     {{ paginator }}
 </div>
 
-<h3>Top offers</h3>
+<h3>Special offers</h3>
