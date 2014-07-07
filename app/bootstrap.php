@@ -5,7 +5,7 @@ $loader = new \Phalcon\Loader();
 
 $loader->registerDirs(
     [
-        __DIR__.'/lib/'
+        __DIR__ . '/lib/'
     ]
 )->register();
 
@@ -21,12 +21,13 @@ $di->set(
 $di->set(
     'db',
     function () use ($config) {
-        return new \Phalcon\Db\Adapter\Pdo\Mysql(array(
+        return new \Phalcon\Db\Adapter\Pdo\Mysql([
             "host" => $config->database->host,
             "username" => $config->database->username,
             "password" => $config->database->password,
-            "dbname" => $config->database->dbname
-        ));
+            "dbname" => $config->database->dbname,
+            "charset" => $config->database->charset,
+        ]);
     }
 );
 
@@ -45,9 +46,9 @@ $di->set(
         $view = new \Phalcon\Mvc\View();
         $view->setViewsDir(__DIR__ . '/views/');
         $view->registerEngines(
-            array(
+            [
                 ".volt" => 'volt'
-            )
+            ]
         );
         return $view;
     }
@@ -58,9 +59,9 @@ $di->set(
     function ($view, $di) {
         $volt = new \Phalcon\Mvc\View\Engine\Volt($view, $di);
         $volt->setOptions(
-            array(
+            [
                 "compiledPath" => "../cache/volt/"
-            )
+            ]
         );
         return $volt;
     },

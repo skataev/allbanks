@@ -8,6 +8,40 @@ class Bank extends \Phalcon\Mvc\Model
     private $logo;
     private $phone;
     private $web;
+    private $note;
+    private $address;
+
+    /**
+     * @param mixed $address
+     */
+    public function setAddress($address)
+    {
+        $this->address = $address;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAddress()
+    {
+        return $this->address;
+    }
+
+    /**
+     * @param mixed $note
+     */
+    public function setNote($note)
+    {
+        $this->note = $note;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getNote()
+    {
+        return $this->note;
+    }
 
     /**
      * @param mixed $code
