@@ -269,6 +269,9 @@ footer p.copy {
         padding: 10px;
         width: 201px;
     }
+    .bank-block a {
+        text-decoration: none;
+    }
     .bank-block-left {
         margin-right: 15px;
     }
@@ -328,6 +331,76 @@ footer p.copy {
     font-style: italic;
     margin: 10px 10px 0 10px;
     font-family: Georgia;
+}
+.error-message, .bank-note {
+    background: url("../img/c-spec-offers-3492a30e38dab25fa7d21651a8e37041.png") repeat scroll left top #00b0dd;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+}
+.top-offer-1, .top-offer-2 {
+    float: left;
+    width: 287px;
+    padding: 10px;
+    border-radius: 3px;
+    background: rgba(0,176,221,0.2);
+}
+.top-offer-1 { margin-right: 10px; }
+.top-offer-1 img, .top-offer-2 img {
+    float: left;
+    margin-right: 10px;
+    max-width: 100px;
+}
+.top-offer-2 {
+    float: right;
+    width: 286px;
+}
+.button-small {
+    margin: 0;
+    padding: 3px 17px;
+    float: left;
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785;
+    box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #156785;
+}
+.button-small:active {
+    top:1px;
+    -webkit-box-shadow: inset 0px 1px 0px #2ab7ec;
+    -moz-box-shadow: inset 0px 1px 0px #2ab7ec;
+    -o-box-shadow: inset 0px 1px 0px #2ab7ec;
+    box-shadow: inset 0px 1px 0px #2ab7ec;
+}
+.bank-logo {
+    float: left;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.bank-note h3 {
+    margin-top: 0;
+}
+.info-table td {
+    padding: 10px 10px 0px 0;
+}
+.info-table a {
+    text-decoration: none;
+}
+.icon-location:before {
+    content: '\e600';
+}
+.bb {
+    border-bottom: dotted 1px #00b0dd;
+}
+.br {
+    border-right: dotted 1px #00b0dd;
+}
+.bt {
+    border-top: dotted 1px #00b0dd;
+}
+.bl {
+    border-left: dotted 1px #00b0dd;
 }
 .content-table td {
     padding: 5px 5px 5px 0;

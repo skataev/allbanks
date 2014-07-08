@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phalcon/phalcon-devtools.git",
-                "reference": "2c445923bdcafac70cc8943607ef7145dc926db3"
+                "reference": "a6c839128c963ea319a484101c1e567ca6345a72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phalcon/phalcon-devtools/zipball/2c445923bdcafac70cc8943607ef7145dc926db3",
-                "reference": "2c445923bdcafac70cc8943607ef7145dc926db3",
+                "url": "https://api.github.com/repos/phalcon/phalcon-devtools/zipball/a6c839128c963ea319a484101c1e567ca6345a72",
+                "reference": "a6c839128c963ea319a484101c1e567ca6345a72",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "framework",
                 "phalcon"
             ],
-            "time": "2014-06-14 22:51:25"
+            "time": "2014-07-01 17:53:35"
         }
     ],
     "packages-dev": [

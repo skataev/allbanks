@@ -22,6 +22,8 @@ class BankController extends ControllerBase
         $page = $this->request->getQuery("page", null, 1);
 
         $searchCondition = [];
+
+
         if ($this->request->getQuery("search", null, '')) {
             $searchCondition['conditions'] = 'title LIKE ?1';
             $searchCondition['bind']['1'] = '%' . $this->request->getQuery('search', null, '') . '%';
@@ -45,10 +47,18 @@ class BankController extends ControllerBase
     }
 
     /**
-     *
+     * показ конкретного банка
      */
     public function itemAction()
     {
+        $bank = Bank::find([
+            'code' => $this->dispatcher->getParam('code')
+            ]);
 
+        if(empty($bank)) {
+
+        }
+
+        $this->view->setVar('bank',$bank[0]);
     }
 }

@@ -20,6 +20,7 @@ $router->add("/banks/map/", array(
 $router->add("/banks/([A-z\-0-9]{0,14})/", array(
     'controller' => 'bank',
     'action' => 'item',
+    'code' => 1
 ));
 
 $router->add("/credits/", array(
