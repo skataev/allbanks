@@ -20,11 +20,12 @@ class BankController extends ControllerBase
     {
         Phalcon\Tag::setTitle('All Swiss banks, Zurich');
         $page = $this->request->getQuery("page", null, 1);
-
         $searchCondition = [];
 
-
-        if ($this->request->getQuery("search", null, '')) {
+        if (
+            $this->request->getQuery("search", null, '') &&
+            $this->request->getQuery("search", null, '') !== 'Suchbegriff...'
+        ) {
             $searchCondition['conditions'] = 'title LIKE ?1';
             $searchCondition['bind']['1'] = '%' . $this->request->getQuery('search', null, '') . '%';
         }
@@ -51,14 +52,16 @@ class BankController extends ControllerBase
      */
     public function itemAction()
     {
-        $bank = Bank::find([
-            'code' => $this->dispatcher->getParam('code')
-            ]);
+        $bank = Bank::find(
+            [
+                'code' => $this->dispatcher->getParam('code')
+            ]
+        );
 
-        if(empty($bank)) {
+        if (empty($bank)) {
 
         }
 
-        $this->view->setVar('bank',$bank[0]);
+        $this->view->setVar('bank', $bank[0]);
     }
 }

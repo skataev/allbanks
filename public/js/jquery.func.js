@@ -10,10 +10,18 @@ $(document).ready(function(){
     });
 
     var max_bank_block_height = 0;
-    $('.bank-block').each(function(n,el){
+    $('.bank-block .logo-holder').each(function(n,el){
         if($(el).height()>max_bank_block_height) {
             max_bank_block_height = $(el).height();
         }
     });
-    $('.bank-block').height(max_bank_block_height + 'px');
+    $('.bank-block .logo-holder').height(max_bank_block_height + 'px');
+
+    var max_bank_block_height = 0;
+    $('.bank-block .inner-line').each(function(n,el){
+        if($(el).height()>max_bank_block_height) {
+            max_bank_block_height = $(el).height();
+        }
+    });
+    $('.bank-block .inner-line').height(max_bank_block_height + 'px');
 })
