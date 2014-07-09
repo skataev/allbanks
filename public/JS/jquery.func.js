@@ -10,11 +10,10 @@ $(document).ready(function(){
     });
 
     var max_bank_block_height = 0;
-    $('.bank-block').each(function(el){
-        if(el.heihjt()>max_bank_block_height) {
-            max_bank_block_height = el.heihjt();
+    $('.bank-block').each(function(n,el){
+        if($(el).height()>max_bank_block_height) {
+            max_bank_block_height = $(el).height();
         }
     });
-    alert(max_bank_block_height);
     $('.bank-block').height(max_bank_block_height + 'px');
 })
