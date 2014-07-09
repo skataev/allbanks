@@ -37,3 +37,9 @@ $router->add("/credits/search/([A-z\-0-9]{4})/", array(
     'controller' => 'credit',
     'action' => 'item',
 ));
+
+
+$router->add("/credit-cards/", array(
+        'controller' => 'credit_card',
+        'action' => 'index',
+    ));

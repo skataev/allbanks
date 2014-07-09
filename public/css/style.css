@@ -402,3 +402,7 @@ footer p.copy {
 .bl {
     border-left: dotted 1px #00b0dd;
 }
+.content-table td {
+    padding: 5px 5px 5px 0;
+    min-width: 200px;
+}

@@ -3,7 +3,7 @@
 /**
  * Class IndexController
  */
-class BankController extends ControllerBase
+class CreditCardController extends ControllerBase
 {
     const PER_PAGE_LIMIT = 16;
 
